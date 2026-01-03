@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Muhammad Shandi Yudha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-logo">SHANDI<span>YUDHA</span></div>
+    <ul class="nav-links" id="myNavMenu">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#profile" class="nav-link">Profile</a></li>
+      <li><a href="#project" class="nav-link">Project</a></li>
+      <li><a href="#media" class="nav-link">Media</a></li>
+      <li><a href="#document" class="nav-link">Document CV</a></li>
+    </ul>
+    <div class="nav-menu-btn" onclick="myMenuFunction()">
+      <i class='bx bx-menu'></i>
+    </div>
+  </nav>
+
+  <section id="home" class="section hero">
+    <div class="hero-content">
+      <h3>Halo, Saya</h3>
+      <h1>Muhammad <span>Shandi Yudha</span></h1>
+      <p>Mahasiswa Sistem Informasi | Web Developer Pemula</p>
+      <div class="hero-btns">
+        <a href="#project" class="btn">Lihat Project</a>
+        <a href="#document" class="btn btn-outline">Lihat CV</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="myfoto.jpeg" alt="Shandi Yudha">
+    </div>
+  </section>
+
+  <section id="profile" class="section">
+    <h2 class="section-title">Tentang <span>Saya</span></h2>
+    <div class="profile-container">
+      <div class="about-text">
+        <p>Saya adalah lulusan SMK Bina Rahayu jurusan Teknik Komputer dan Jaringan. Website ini dibuat sebagai project UAS mata kuliah Pemrograman Web 1.</p>
+      </div>
+      <div class="contact-info">
+        <h3>Hubungi Saya</h3>
+        <div class="contact-item">
+          <i class='bx bxl-whatsapp'></i> <span>WA: +62895-0573-4050</span>
+        </div>
+        <div class="contact-item">
+          <i class='bx bx-envelope'></i> <span>EMAIL: shandi.yudha@email.com</span>
+        </div>
+        <div class="contact-item">
+          <i class='bx bxl-instagram'></i> <span>IG: yudh4444</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="project" class="section">
+    <h2 class="section-title">Karya & <span>Project</span></h2>
+    <div class="project-grid">
+      
+      <div class="project-card">
+        <div class="project-img">
+          <img src="project 1.png" alt="Screenshot Menghitung Total Belanjaan">
+        </div>
+        <div class="project-info">
+          <h3>Menghitung Total Belanjaan Sesuai Banyak Barang</h3>
+          <p>Menggunakan HTML, CSS, dan JavaScript.</p>
+          <a href="#" class="project-link">Detail Project</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img">
+          <img src="project 2.png" alt="Screenshot Menu Navigasi">
+        </div>
+        <div class="project-info">
+          <h3>Daftar Menu </h3>
+          <p>Form Menu Navigasi.</p>
+          <a href="#" class="project-link">Detail Project</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img">
+          <img src="project 3.png" alt="Screenshot Website Layout Modern">
+        </div>
+        <div class="project-info">
+          <h3>Buat Website Layout Modern</h3>
+          <p>Website Layout Modern</p>
+          <a href="#" class="project-link">Detail Project</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="media" class="section">
+    <h2 class="section-title">Media <span>Konten</span></h2>
+    <div class="media-grid">
+      <div class="media-card">
+        <h4>Foto</h4>
+        <img src="myfoto.jpeg" alt="Foto Shandi">
+      </div>
+      <div class="media-card">
+        <h4>Video</h4>
+        <video controls>
+          <source src="vid jj.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="media-card">
+        <h4>Sound</h4>
+        <audio controls>
+          <source src="sedia aku sebelum diaa.mp3" type="audio/mp3">
+        </audio>
+      </div>
+    </div>
+  </section>
+
+  <section id="document" class="section">
+    <h2 class="section-title">Document <span>CV</span></h2>
+    <div class="document-container">
+      <div class="cv-preview">
+        <iframe src="cvv.jpeg" class="cv-iframe"></iframe>
+      </div>
+      <a href="cvv.jpeg" class="btn" download>Download CV <i class='bx bx-download'></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Muhammad Shandi Yudha. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
